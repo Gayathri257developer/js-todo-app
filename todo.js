@@ -6,19 +6,19 @@ let main = document.querySelector(".mainpage");
 block.style.display="none";
 next.style.display="none";
 
-function added(){
+const added = () => {
   main.style.filter = 'blur(3px)';
   next.style.filter = 'blur(5px)';
   block.style.display = "block"; 
 }
 
-function closed(){
+const closed = () => {
   block.style.display="none";
   main.style.filter = 'blur(0px)';
   next.style.filter = 'blur(0px)';
 }
 
-function uploadtask(){
+const uploadtask = () => {
   added();  
   block.innerHTML = `<div class="input One">
   <p>add new list</p>
@@ -34,7 +34,7 @@ function list() {
     return count++;
 }
 
-function addtask(){
+const addtask = () => {
   title.style.display = 'none';
   closed();
   let id = list();
@@ -115,7 +115,7 @@ document.getElementById(`title${id}`).onclick = function () {
     }  
 }
 
-function block1(){
+const block1 = () => {
   main.style.display = 'block';
   next.style.display = 'none';
 }

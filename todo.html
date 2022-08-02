@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="todo.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+
+    <div id="block"></div> 
+
+
+    <div class="mainpage">
+      <h3>Tasks List</h3>
+      <p id="title">No Items in the todo list</p>
+      <button id="btn1" onclick="uploadtask()">
+        <i class="fa fas fas fa-plus-square"> Add Item </i>
+      </button>
+      <div class="task"></div>
+    </div>
+
+  
+    <div id="nextpage">
+      <div class="flex-button">
+        <i class="fa fas fas fas fa-arrow-circle-left" id="back"> Back </i>
+        <h2></h2>
+        <i class="fa fas fas fa-plus-square" id="goto"> Add List </i>
+      </div>
+
+      <div id="selectedtrip"></div>
+    </div>
+
+
+    <script src="todo.js"></script>
+  </body>
+</html>

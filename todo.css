@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    width: auto;
+    height: auto;
+    /* overflow: hidden; */
+}
+.mainpage{
+    color: white;
+}
+h3{
+    margin: 50px 90px;
+    font-size: 40px;
+}
+
+#btn1{
+    position: absolute;
+    left: 70%;
+    top: 10%;
+    border: none;
+    background-color: black;
+    color: rgb(164, 207, 250);
+    font-size: 40px;
+}
+#title{
+    color: #fff;
+    margin: 40px 80px;
+    font-size: 35px;
+    font-family: 'Segoe UI', Verdana, sans-serif;
+}
+
+/* input's*/
+.input{
+    text-align: center;
+    border: 2px solid salmon;
+    width: 400px;  
+    margin: 10px;
+    height: 200px; 
+   
+} 
+#block{
+    position: absolute;
+    z-index: 1;
+    top: 35%;
+    left: 35%;
+    background-color: antiquewhite;
+    opacity: 0.9;
+}
+p{
+    color: salmon;
+    font-size: 25px;
+    margin: 15px;
+    text-transform: capitalize;
+}
+input[type=text]{
+    width: 70%;
+    height: 30px;
+    margin: 20px;
+    border: 1px solid salmon;
+    border-radius: 10px;
+}
+#btn2, #btn3{
+    background-color: salmon;
+    padding: 8px 20px;
+    font-size: 15px;
+    border-radius: 15px;
+    font-weight: 500;
+    position: relative;
+}
+
+.btn4{
+    background-color: salmon;
+    padding: 8px 20px;
+    font-size: 15px;
+    border-radius: 15px;
+    font-weight: 500;
+    position: relative;
+}
+/* task box's */
+.task {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box{
+   background-color: salmon;
+   border: 2px solid blue;
+   border-radius: 10px;
+   width: 15%;
+   height: 300px;
+   margin: 20px 50px 0px 50px;  
+}
+h5{
+    cursor: pointer;
+    font-size: 24px;
+    text-align: center;
+    margin: 5px;
+    color: whitesmoke;
+}
+hr{
+    position: relative;
+    top: 1%;  
+}
+.fa-trash{
+    color: red;
+    font-size: larger;
+}
+.fa-plus-circle{
+    color: blue;
+    font-size: large;
+    margin-left: 10px;
+}
+.box .footer{
+    position: relative;
+    top: 55%;
+    left: 65%;
+}
+
+/* items */
+ul li{
+    text-align: center;
+    color: rgba(251, 251, 251, 0.923); 
+    cursor: pointer;
+    margin: 10px;
+    list-style: none;
+
+    -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} 
+ 
+.mark{
+    color: rgb(0, 47, 255);
+    text-decoration: line-through;
+    font-size: 20px;
+}
+  span:hover{
+    background-color: rgb(52, 249, 30);
+  }
+  span{
+    border: 1px solid rgb(17, 0, 255);
+    border-radius: 10px;
+    padding: 2px 5px;
+    margin-left: 50px;
+  }
+
+#goto {
+    position: absolute;
+    left: 80%;
+    top: 10%;
+    border: none;
+    background-color: black;
+    color: rgb(164, 207, 250);
+    font-size: 40px;
+}
+#back{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    border: none;
+    background-color: rgb(7, 7, 7);
+    color: rgb(164, 207, 250);
+    font-size: 40px;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    font-weight: 800;
+}
+#nextpage{
+    width: 100%;
+    position: relative;
+    top: 0%;
+}
+.flex-button {
+    border: 2px solid black;
+    margin-top: 50px;
+    position: relative;
+}
+#selectedtrip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
